@@ -35,7 +35,7 @@ jobs:
           -H "Client-Secret: ${{ secrets.INTRUCEPT_CLIENT_SECRET }}" \
           -F "projectZipFile=@project.zip" \
           -F "applicationId=${{ secrets.INTRUCEPT_APPLICATION_ID }}" \
-          -F "scanName=ruby-master-SCA Scan - Gradle - from GitHub Actions" \
+          -F "scanName=ruby-master-SCA Re-Scan - Gradle - from GitHub Actions" \
           -F "language=Ruby" \
           https://appsecops-api.intruceptlabs.com/api/v1/integrations/sca-scans)
         
